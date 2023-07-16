@@ -2,7 +2,7 @@
 <br>
 
 # Boosted theme #
-Boosted is a theme for moodle 4.0 and higher, based in Boost and developed to create an amazing design easily. 
+Boosted is a theme for moodle 4.0 and higher, based in Boost and developed to create an amazing design easily.
 
 ## Theme Credits ##
 2022-2023 Koditik Development Team  
@@ -12,7 +12,7 @@ This theme is created with the aim to get an amazing moodle theme customized in 
 
 ## Features ##
 ### General ###
-Select among two pre-defined styles included. Set the page width to several values (no more narrow screen), add a background image to be displayed in the whole site (except login page), ... 
+Select among two pre-defined styles included. Set the page width to several values (no more narrow screen), add a background image to be displayed in the whole site (except login page), ...
 
 ### Configurable Header and Footer ###
 Change the header and footer colours. Add up to four custom blocks in the footer and a footer note.
@@ -35,6 +35,7 @@ You can add your own custom SCSS/CSS code in the theme. Boosted is also able to 
 ## Changelog ##
 - 1.0.0 First release for moodle 4.0 and higher.
 - 1.1.0 Fixed some minor changes. Settings descriptions improved. Compatible with Moodle 4.2
+- 1.2.0 Fixed Report Builder page issue and some other minor issues. Settings descriptions improved. Added Spanish language pack.
 
 ## Requirements ##
 Boosted needs Moodle 4.0 or higher and Boost installed. It is compatible with PHP 7.4 and 8.x
@@ -64,7 +65,7 @@ https://koditik.com/demo/moodle
 GPL v3 (GNU General Public License) - https://www.gnu.org/licenses
 
 ### The Font Awesome v4.7 (by Dave Gandy) is licensed under: ###
-SIL Open Font License v1.1 - https://scripts.sil.org/OFL 
+SIL Open Font License v1.1 - https://scripts.sil.org/OFL
 
 Font Awesome CSS, LESS, and SASS files are licensed under MIT License - https://opensource.org/licenses/mit-license.html
 

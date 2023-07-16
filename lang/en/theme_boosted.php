@@ -272,8 +272,9 @@ $string['rawscsspre_desc'] = 'In this field you can provide initialising SCSS co
 $string['about']   = 'About';
 $string['support'] = '<br><b>Support:</b><p>Post your questions in the <a href="https://moodle.org/mod/forum/view.php?id=46" target="_blank">Moodle themes forum</a>.
 <br>Please, indicate the above information about Moodle and Boosted versions.</p></br>';
-$string['information'] = '<b>Report bugs and improvements:</b><p>In our Github repository: <a href="https://github.com/koditik/moodle-theme_boosted" target="_blank">https://github.com/koditik/moodle-theme_theme</a>
+$string['information'] = '<b>Report bugs and improvements:</b><p>In our Github repository: <a href="https://github.com/koditik/moodle-theme_boosted" target="_blank">https://github.com/koditik/moodle-theme_boosted</a>
 <br><u>Please, only bugs and improvements. Any other topic will be deleted.</u></p>';
+$string['demo'] = 'Visit our demo site: ';
 
 
 // Styles page ******************************************************.

@@ -28,11 +28,18 @@ defined('MOODLE_INTERNAL') || die;
 // About heading.
 $page = new admin_settingpage('theme_boosted_about', get_string('aboutsettings', 'theme_boosted'));
 
+
 // About text.
     $output = '<h5><b>Moodle version: </b>'.$CFG->release.'</h5>'.
               '<h5><b>'.get_string('pluginname', 'theme_boosted').
-              ' version:</b> 1.1.0 (Build: '.get_config('theme_boosted', 'version').
+              ' version:</b> 1.2.0 (Build: '.get_config('theme_boosted', 'version').
               ')</h5>';
+
+    $output .= '<br><br>';
+
+    $output .= get_string('choosereadme', 'theme_boosted');
+
+    $output .= '<br><br>';
 
     $output .= get_string('support', 'theme_boosted');
     $output .= get_string('information', 'theme_boosted');
@@ -57,7 +64,8 @@ $page = new admin_settingpage('theme_boosted_about', get_string('aboutsettings',
     $output .= '<br><p><span style="font-weight: bolder;">Boosted<br>&copy;2022-'.date("Y").' koditik</p>';
     $output .= '<p><span style="font-weight: bolder;">
                 Boosted and Koditik</span> are not affiliated with or endorsed by Moodle.</p>';
-    $output .= '<div class="boostedbanner">Demo: <a href="https://koditik.com/demo/moodle" target="_blank" style="color: #fff;">
+    $output .= '<div class="boostedbanner">'.get_string('demo', 'theme_boosted').'<br><br>
+                <a href="https://koditik.com/demo/moodle" target="_blank" style="color: #fff;">
                 https://koditik.com/demo/moodle
                 </a></div>';
 

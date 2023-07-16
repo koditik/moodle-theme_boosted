@@ -28,7 +28,7 @@ defined('MOODLE_INTERNAL') || die();
 $plugin->component = 'theme_boosted';
 
 // Boosted version date (YYYYMMDDrr where rr is the release number).
-$plugin->version   = 2023040500;
+$plugin->version   = 2023070100;
 
 // Moodle 4.0 required.
 $plugin->requires  = 2022041200;
@@ -37,7 +37,7 @@ $plugin->requires  = 2022041200;
 $plugin->supported = [400, 420];
 
 // Boosted version using SemVer (https://semver.org).
-$plugin->release = '1.1.0';
+$plugin->release = '1.2.0';
 
 // Boosted maturity.
 $plugin->maturity = MATURITY_STABLE;

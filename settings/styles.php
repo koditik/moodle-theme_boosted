@@ -27,6 +27,11 @@ defined('MOODLE_INTERNAL') || die;
 
 // Styles heading.
 $page = new admin_settingpage('theme_boosted_styles', get_string('stylessettings', 'theme_boosted'));
+$page->add(new admin_setting_heading('theme_boosted_styles', get_string('stylessettings', 'theme_boosted'),
+                                     format_text(get_string('stylesdesc', 'theme_boosted'), FORMAT_MARKDOWN)));
+
+
+
 
 // Headings.
 $output = '<h3 class="mt-5">Text</h3>';

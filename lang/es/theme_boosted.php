@@ -19,19 +19,21 @@
  *
  * @package   theme_boosted
  * @copyright 2022-2023 koditik.com
+ * @author    2023 Fernando Acedo
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['choosereadme'] = 'Boosted es un tema moderno y altamente personalizable basado en Boost. Puedes configurar fácilmente algunos elementos: colores, fuentes, portada, página de inicio de sesión y muchos más, para desplegar un sitio en minutos.';
+$string['choosereadme'] = 'Boosted es un tema moderno y altamente personalizable basado en Boost.
+ Puedes configurar fácilmente algunos elementos: colores, fuentes, portada, página de inicio de sesión y muchos más, para desplegar un sitio atractivo en minutos.';
 
 // Cadenas genéricas ***************************************************.
 $string['show'] = 'Mostrar';
 $string['hide'] = 'Ocultar';
 
 $string['left'] = 'Izquierda';
-$string['centro'] = 'Centro';
+$string['centre'] = 'Centro';
 $string['right'] = 'Derecha';
 $string['top'] = 'Arriba';
 $string['bottom'] = 'Abajo';
@@ -39,10 +41,8 @@ $string['bottom'] = 'Abajo';
 $string['prev_activity'] = 'Anterior';
 $string['next_activity'] = 'Siguiente';
 
-
 // Privacy ***********************************************************.
 $string['privacy:metadata'] = 'El tema Boosted no almacena ningún dato personal sobre el usuario';
-
 
 // Settings **********************************************************.
 $string['aboutsettings'] = 'Acerca de';
@@ -155,7 +155,7 @@ $string['headertextcolordesc'] = 'Establece el texto de la barra de navegación 
 
 
 // Portada ********************************************************.
-$string['frontpagedesc'] = 'En esta sección puede configurar la portada añadiendo una imagen, bloques de información y el catálogo de cursos';
+$string['frontpagedesc'] = 'En esta sección puede configurar la portada añadiendo una imagen, bloques de información y el catálogo de cursos.';
 
 $string['bannerimage'] = 'Imagen (banner)';
 $string['bannerimagedesc'] = 'La imagen se mostrará en la parte superior de la portada. La imagen debe tener al menos 1600×400 píxeles (1900×400 píxeles para una mejor visualización) y puede estar en formato .jpg, .png e incluso un .gif animado. La imagen se muestra centrada y recortada alrededor';
@@ -272,14 +272,15 @@ $string['rawscss_desc'] = 'Utiliza este campo para proporcionar el código SCSS,
 $string['about'] = 'Acerca de';
 $string['support'] = '<br><b>Soporte:</b><p>Publica tus dudas y cuestiones en el <a href="https://moodle.org/mod/forum/view.php?id=696" target="_blank">Foro de Nuevos Módulos, Apariencia y Personalización de Moodle en Español</a>
 <br>Por favor, indica la información mostrada sobre las versiones de Moodle y de Boosted.</p><br>';
-$string['information'] = '<b>Informa de errores y mejoras:</b><p> Utiliza nuestro repositorio en Github: <a href="https://github.com/koditik/moodle-theme_boosted" target="_blank">https://github.com/koditik/moodle-theme_theme</a>
-<br><u>Por favor, solo errores y mejoras. Cualquier otro tema será eliminado.</u></p>';
+$string['information'] = '<b>Informa de errores y mejoras:</b><p> Utiliza nuestro repositorio en Github: <a href="https://github.com/koditik/moodle-theme_boosted" target="_blank">https://github.com/koditik/moodle-theme_boosted</a>
+<br><u>Por favor, solo errores y mejoras. Cualquier otra cuestión será eliminada.</u></p>';
+$string['demo'] = 'Visita nuestra demo: ';
 
-// Página de estilos ******************************************************.
-$string['stylesdesc'] = 'En esta sección puedes comprobar cómo se aplican los estilos a los diferentes elementos del tema: texto, fondo, botones, ...';
+// Estilos ******************************************************.
+$string['stylesdesc'] = 'En esta sección puedes comprobar como se aplican los estilos a los diferentes elementos del tema: texto, fondo, botones, ...';
 
 // Cuadros del curso *****************************************************.
-$string['curso'] = 'curso';
+$string['course'] = 'curso';
 $string['searchcourses'] = 'Buscar cursos';
 $string['enrollcoursecard'] = 'Inscríbete';
 $string['nomycourses'] = 'No hay cursos';
